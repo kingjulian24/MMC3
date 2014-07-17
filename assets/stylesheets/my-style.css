@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+}
+#trailer{
+    display: none;
+    position:fixed;
+    top: 40%;
+    left: 40%;
+    width:625px;
+    height:360px;
+    margin-top: -180px; /*set to a negative number 1/2 of your height*/
+    margin-left: -180px; /*set to a negative number 1/2 of your width*/
+    
+    background-color: black;
+}
+.movie-info{
+    float:right;
+}
+ul li{
+    color: #ccc;
+}
+.traler-link{
+    cursor: pointer;
+    color: red;
+}
+li.traler-link:hover{
+    text-decoration: underline;
+}
+#searchform{
+    width: 75%;
+    margin-top: 5%;
+}
+#searchform-home{
+    width: 45%;
+    
+}
+.container{
+    margin-top: 10%;
+    margin-left:30%;
+    margin-righ: auto;
+}
+.logo{
+    margin-left: 20%;
+    margin-bottom: 2%;
+}
+.logo-2{
+    display: inline;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.btn{
+    margin-top:5%;
+}
+.row-fluid{
+    margin-left: 2%;
+}
