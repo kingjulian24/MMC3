@@ -10,9 +10,9 @@
       </form>
     </div>
   </div>
-
+  <br>
   <div class="row">
-    <div class="col-xs-12 col-sm-4">
+    <div class="col-xs-12 col-sm-4 poster">
       <img class="img-responsive movie-poster" src="<?php echo $movie->Poster; ?>" >
     </div>
     <div class="col-xs-12 col-sm-8 movie-title">
@@ -26,7 +26,7 @@
     <div class="col-xs-12 col-sm-8 movie-title">
      <p><?php echo $movie->Rated ?> | <?php echo $movie->Runtime ?> | <?php echo $movie->Genre ?> | <?php echo $movie->Released ?> </p>
       <hr/>
-      <p><?php echo $movie->imdbRating ?>&nbsp;out of 10 <?php for($i = 1; $i <= $movie->imdbRating; $i++){ echo '<span class="glyphicon glyphicon-star"></span>'; } ?>
+      <p><?php echo $movie->imdbRating ?>&nbsp;out of 10 <?php for($i = 1; $i <= $movie->imdbRating; $i++){ echo '<span class="glyphicon glyphicon-star rating"></span>'; } ?>
       <?php for($i = 0; $i <= 10 - $movie->imdbRating ; $i++){ echo '<span class="glyphicon glyphicon-star-empty"></span>'; } ?></p>
       <hr/>
       <p>

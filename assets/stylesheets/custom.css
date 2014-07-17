@@ -1,11 +1,23 @@
 body {
   font-family: 'Noto Sans', sans-serif;
+  color:#FFF;
+  background: #000;
 }
 
 h1 {
   font-weight:  700;
+  color:red;
+}
+strong{
+  color:  #808066;
 }
 
+.poster img{
+  margin: 0 auto;
+}
+.rating{
+  color: gold;
+}
 .movie-title h1 {
   display: inline;
 }
