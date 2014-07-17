@@ -1,5 +1,9 @@
 <? include 'header.php' ?>
-<h1 style="margin-left: 45%; margin-top:20%; font-size:55px;">MMC</h1>
+<div class="row">
+  <div class= "col-xs-12">
+    <h1 style="margin:0 auto; margin-top:20%; font-size:55px;">MMC</h1>
+  </div>
+</div>
   <div class="row" style="margin-top:5%;">
     <div class="col-xs-12 ">
       <form  role="form"class="form-search" action="movie_info.php" method="get">
