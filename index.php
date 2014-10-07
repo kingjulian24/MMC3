@@ -1,4 +1,4 @@
-<? include 'header.php' ?>
+<?php  include 'header.php' ?>
 <div class="row">
   <div class= "col-xs-12">
     <h1 style="margin:0 auto; margin-top:20%; font-size:55px;">MMC</h1>
@@ -15,5 +15,5 @@
     </div>
   </div>
 	
-<? include 'footer.php' ?>
+<?php  include 'footer.php' ?>
     

@@ -1,4 +1,4 @@
-<?
+<?php 
 //contains custom functions
 
 

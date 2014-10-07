@@ -1,4 +1,4 @@
-<?
+<?php 
 include 'get_movie_data.php';
 global $movie;
 global $trailer;

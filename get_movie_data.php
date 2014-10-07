@@ -1,4 +1,4 @@
-<?
+<?php 
 include 'includes/functions.php';
 class Trailer_Api {
 	private $data;
