@@ -21,7 +21,7 @@ if(isset($_GET['search'])){
     
    <!--  <link href="assets/stylesheets/screen.css" rel="stylesheet" media="screen"> --> 
    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
    <!-- <link href="assets/stylesheets/lightbox.css" rel="stylesheet" media="screen"> -->
     <link href="assets/stylesheets/custom.css" rel="stylesheet" media="screen">
     <link rel="shortcut icon" href="favicon.ico" />
